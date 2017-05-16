@@ -1,0 +1,205 @@
+\begin{thebibliography}{10}
+
+\bibitem{jain2008data}
+Anil~K Jain.
+\newblock Data clustering: 50 years beyond k-means.
+\newblock {\em ECML/PKDD (1)}, 5211:3--4, 2008.
+
+\bibitem{chapelle2006continuation}
+Olivier Chapelle, Mingmin Chi, and Alexander Zien.
+\newblock A continuation method for semi-supervised svms.
+\newblock In {\em Proceedings of the 23rd international conference on Machine
+  learning}, pages 185--192. ACM, 2006.
+
+\bibitem{silva2013data}
+Jonathan~A Silva, Elaine~R Faria, Rodrigo~C Barros, Eduardo~R Hruschka,
+  Andr{\'e}~CPLF de~Carvalho, and Jo{\~a}o Gama.
+\newblock Data stream clustering: A survey.
+\newblock {\em ACM Computing Surveys (CSUR)}, 46(1):13, 2013.
+
+\bibitem{fahad2014survey}
+Adil Fahad, Najlaa Alshatri, Zahir Tari, Abdullah Alamri, Ibrahim Khalil,
+  Albert~Y Zomaya, Sebti Foufou, and Abdelaziz Bouras.
+\newblock A survey of clustering algorithms for big data: Taxonomy and
+  empirical analysis.
+\newblock {\em IEEE transactions on emerging topics in computing},
+  2(3):267--279, 2014.
+
+\bibitem{gsc}
+data clustering.
+\newblock \url{https://scholar.google.fr/}.
+\newblock Accessed: 2017-01-26.
+
+\bibitem{jain1988algorithms}
+Anil~K Jain and Richard~C Dubes.
+\newblock {\em Algorithms for clustering data}.
+\newblock Prentice-Hall, Inc., 1988.
+
+\bibitem{hartigan1975clustering}
+John~A Hartigan and JA~Hartigan.
+\newblock {\em Clustering algorithms}, volume 209.
+\newblock Wiley New York, 1975.
+
+\bibitem{han2000data}
+Jiawei Han and Micheline Kamber.
+\newblock Data mining: concepts and techniques (the morgan kaufmann series in
+  data management systems).
+\newblock 2000.
+
+\bibitem{bishop2006pattern}
+Christopher~M Bishop.
+\newblock Pattern recognition.
+\newblock {\em Machine Learning}, 128:1--58, 2006.
+
+\bibitem{steinhaus1956division}
+Hugo Steinhaus.
+\newblock Sur la division des corp materiels en parties.
+\newblock {\em Bull. Acad. Polon. Sci}, 1(804):801, 1956.
+
+\bibitem{ball1965isodata}
+Geoffrey~H Ball and David~J Hall.
+\newblock Isodata, a novel method of data analysis and pattern classification.
+\newblock Technical report, DTIC Document, 1965.
+
+\bibitem{lloyd1982least}
+Stuart Lloyd.
+\newblock Least squares quantization in pcm.
+\newblock {\em IEEE transactions on information theory}, 28(2):129--137, 1982.
+
+\bibitem{dataclassification}
+data classification definition.
+\newblock
+  \url{https://www.techopedia.com/definition/13779/data-classification/}.
+\newblock Accessed: 2017-04-16.
+
+\bibitem{arabie1996clustering}
+Phipps Arabie, Lawrence~J Hubert, and Geert De~Soete.
+\newblock {\em Clustering and classification}.
+\newblock World Scientific, 1996.
+
+\bibitem{cortes1995support}
+Corinna Cortes and Vladimir Vapnik.
+\newblock Support-vector networks.
+\newblock {\em Machine learning}, 20(3):273--297, 1995.
+
+\bibitem{vapnik2013nature}
+Vladimir Vapnik.
+\newblock {\em The nature of statistical learning theory}.
+\newblock Springer science \& business media, 2013.
+
+\bibitem{boser1992training}
+Bernhard~E Boser, Isabelle~M Guyon, and Vladimir~N Vapnik.
+\newblock A training algorithm for optimal margin classifiers.
+\newblock In {\em Proceedings of the fifth annual workshop on Computational
+  learning theory}, pages 144--152. ACM, 1992.
+
+\bibitem{andrew2000introduction}
+Alex~M Andrew.
+\newblock An introduction to support vector machines and other kernel-based
+  learning methods by nello christianini and john shawe-taylor, cambridge
+  university press, cambridge, 2000, xiii+ 189 pp., isbn 0-521-78019-5
+  (hbk,{\pounds} 27.50)., 2000.
+
+\bibitem{hsu2002comparison}
+Chih-Wei Hsu and Chih-Jen Lin.
+\newblock A comparison of methods for multiclass support vector machines.
+\newblock {\em IEEE transactions on Neural Networks}, 13(2):415--425, 2002.
+
+\bibitem{knerr1990single}
+Stefan Knerr, L{\'e}on Personnaz, and G{\'e}rard Dreyfus.
+\newblock Single-layer learning revisited: a stepwise procedure for building
+  and training a neural network.
+\newblock In {\em Neurocomputing}, pages 41--50. Springer, 1990.
+
+\bibitem{bredensteiner1999multicategory}
+Erin~J Bredensteiner and Kristin~P Bennett.
+\newblock Multicategory classification by support vector machines.
+\newblock In {\em Computational Optimization}, pages 53--79. Springer, 1999.
+
+\bibitem{lu2014online}
+Yanyun Lu.
+\newblock {\em Online classification and clustering of persons using
+  appearance-based features from video images: application to person discovery
+  and re-identification in multicamera environments}.
+\newblock PhD thesis, Lille 1, 2014.
+
+\bibitem{wu1993optimal}
+Zhenyu Wu and Richard Leahy.
+\newblock An optimal graph theoretic approach to data clustering: Theory and
+  its application to image segmentation.
+\newblock {\em IEEE transactions on pattern analysis and machine intelligence},
+  15(11):1101--1113, 1993.
+
+\bibitem{cios2002uniqueness}
+Krzysztof~J Cios and G~William Moore.
+\newblock Uniqueness of medical data mining.
+\newblock {\em Artificial intelligence in medicine}, 26(1):1--24, 2002.
+
+\bibitem{baldi2002dna}
+Pierre Baldi and G~Wesley Hatfield.
+\newblock {\em DNA microarrays and gene expression: from experiments to data
+  analysis and modeling}.
+\newblock Cambridge university press, 2002.
+
+\bibitem{chandola2011knowledge}
+Varun Chandola, Olufemi~A Omitaomu, Auroop~R Ganguly, Ranga~R Vatsavai,
+  Nitesh~V Chawla, Joao Gama, and Mohamed~M Gaber.
+\newblock Knowledge discovery from sensor data (sensorkdd).
+\newblock {\em ACM SIGKDD Explorations Newsletter}, 12(2):50--53, 2011.
+
+\bibitem{ester1996density}
+Martin Ester, Hans-Peter Kriegel, J{\"o}rg Sander, Xiaowei Xu, et~al.
+\newblock A density-based algorithm for discovering clusters in large spatial
+  databases with noise.
+\newblock In {\em Kdd}, volume~96, pages 226--231, 1996.
+
+\bibitem{cao2006density}
+Feng Cao, Martin Estert, Weining Qian, and Aoying Zhou.
+\newblock Density-based clustering over an evolving data stream with noise.
+\newblock In {\em Proceedings of the 2006 SIAM international conference on data
+  mining}, pages 328--339. SIAM, 2006.
+
+\bibitem{hinneburg1998efficient}
+Alexander Hinneburg, Daniel~A Keim, et~al.
+\newblock An efficient approach to clustering in large multimedia databases
+  with noise.
+\newblock In {\em KDD}, volume~98, pages 58--65, 1998.
+
+\bibitem{wang1997sting}
+Wei Wang, Jiong Yang, Richard Muntz, et~al.
+\newblock Sting: A statistical information grid approach to spatial data
+  mining.
+\newblock In {\em VLDB}, volume~97, pages 186--195, 1997.
+
+\bibitem{aggarwal2004framework}
+Charu~C Aggarwal, Jiawei Han, Jianyong Wang, and Philip~S Yu.
+\newblock A framework for projected clustering of high dimensional data
+  streams.
+\newblock In {\em Proceedings of the Thirtieth international conference on Very
+  large data bases-Volume 30}, pages 852--863. VLDB Endowment, 2004.
+
+\bibitem{charikar2003better}
+Moses Charikar, Liadan O'Callaghan, and Rina Panigrahy.
+\newblock Better streaming algorithms for clustering problems.
+\newblock In {\em Proceedings of the thirty-fifth annual ACM symposium on
+  Theory of computing}, pages 30--39. ACM, 2003.
+
+\bibitem{guha2003clustering}
+Sudipto Guha, Adam Meyerson, Nina Mishra, Rajeev Motwani, and Liadan
+  O'Callaghan.
+\newblock Clustering data streams: Theory and practice.
+\newblock {\em IEEE transactions on knowledge and data engineering},
+  15(3):515--528, 2003.
+
+\bibitem{aggarwal2003framework}
+Charu~C Aggarwal, Jiawei Han, Jianyong Wang, and Philip~S Yu.
+\newblock A framework for clustering evolving data streams.
+\newblock In {\em Proceedings of the 29th international conference on Very
+  large data bases-Volume 29}, pages 81--92. VLDB Endowment, 2003.
+
+\bibitem{ClustreamDefinition}
+Definition of clustrem algorithm.
+\newblock \url{http://huawei-noah.github.io/streamDM/docs/CluStream.html}.
+\newblock Accessed: 2017-05-16.
+
+\end{thebibliography}
