@@ -17,6 +17,8 @@
   \setbeamertemplate{caption}[numbered]
 } 
 
+\addtobeamertemplate{footline}{\hfill\insertframenumber/\inserttotalframenumber\hspace{2em}\null}
+
 \usepackage[english]{babel}
 \usepackage[utf8x]{inputenc}
 
@@ -55,6 +57,7 @@
 
 \vskip 1cm
 
+
 \end{frame}
 
 \section{Some \LaTeX{} Examples}
@@ -65,26 +68,67 @@
 	Suite aux travaux effectués au sein de l'équipe de recherche du département DIA viens le sujet de la thèse en question concernant le développement de méthodologies pour le classification/clustering des données de manière incrémentale et en ligne.
 
 \begin{itemize}
-\item Use \texttt{tabular} for basic tables --- see Table~\ref{tab:widgets}, for example.
-
+	\item Pour effectuer une étude incrémentale et en ligne deux manières se présentent
 \end{itemize}
-
-% Commands to include a figure:
-%\begin{figure}
-%\includegraphics[width=\textwidth]{your-figure's-file-name}
-%\caption{\label{fig:your-figure}Caption goes here.}
-%\end{figure}
 
 \begin{table}
 \centering
 \begin{tabular}{l|r}
-Item & Quantity \\\hline
-Widgets & 42 \\
-Gadgets & 13
+Classification & Clustering \\\hline
+Apprentissage supervisé & Apprentissage non-supervisé \\
+Notions de classes & Notions de Clusters
 \end{tabular}
-\caption{\label{tab:widgets}An example table.}
+\caption{\label{tab:widgets}Quelques différences entre Classification et Clustering}
 \end{table}
 
+
+\end{frame}
+
+\begin{frame}{Etat de l'art}
+
+
+\begin{block}{Article Review Etat de l'art}
+Après étude de l'état de l'art concernant les différents aspects de classification et/ou clustering qui peuvent être utilisés, on a songé à l'écriture d'un article de review de l'état de l'art qui sera présenté dans les deux semaines qui arrivent.
+\end{block}
+	
+	\begin{block}{Base de données}
+			La base de données utilisée dans les articles traitant les différentes méthodologies de clustering est KDD CUP 99'.
+	\end{block}
+
+
+\end{frame}
+
+\begin{frame}{Etat de l'art}
+	
+	
+	
+\begin{table}[ht]
+	\centering
+	\resizebox{\textwidth}{!}{\begin{tabular}{|r|l|r|r|r|r|r|r|r|}
+			\hline
+			Facteur & DenStream & Clustream & D-Stream & Grid-based DBSCAN  \\ 
+			\hline
+			Flot continu & Oui & Oui & Oui & Oui  \\ \hline
+			Nombre de Clusters connu & Non & Oui &  & \\ \hline
+			Cluster de tailles aléatoire  & Oui & Non & Oui & Non \\ \hline
+			Modèle à deux phases &  & Oui &  & Oui  \\ \hline 
+			Traitement de données bruitées & Oui & Non & Oui & Oui \\	\hline
+	\end{tabular}}
+	\caption{Etude comparative des différentes méthodes de clustering en ligne incrémentale existante dans l'état de l'art} 
+\end{table} 
+	
+	
+\end{frame}
+
+\begin{frame}{Expérimentations}
+	DenStream est une méthodologie permettant de faire la détection des clusters dans un flot de données continue.
+	
+	DenStream est basé sur les concepts suivants:
+	\begin{itemize}
+		\item 
+	\end{itemize}
+	
+	
 \end{frame}
 
 \subsection{Mathematics}
