@@ -17,11 +17,19 @@
 \headcommand {\beamer@framepages {5}{5}}
 \headcommand {\slideentry {2}{1}{4}{6/6}{Tables and Figures}{0}}
 \headcommand {\beamer@framepages {6}{6}}
-\headcommand {\beamer@subsectionentry {0}{2}{2}{7}{Mathematics}}\headcommand {\beamer@subsectionpages {3}{6}}
-\headcommand {\slideentry {2}{2}{1}{7/7}{Mathematics}{0}}
+\headcommand {\slideentry {2}{1}{5}{7/7}{Tables and Figures}{0}}
 \headcommand {\beamer@framepages {7}{7}}
-\headcommand {\beamer@partpages {1}{7}}
-\headcommand {\beamer@subsectionpages {7}{7}}
-\headcommand {\beamer@sectionpages {3}{7}}
-\headcommand {\beamer@documentpages {7}}
-\headcommand {\def \inserttotalframenumber {7}}
+\headcommand {\slideentry {2}{1}{6}{8/8}{Tables and Figures}{0}}
+\headcommand {\beamer@framepages {8}{8}}
+\headcommand {\beamer@subsectionentry {0}{2}{2}{9}{Mathematics}}\headcommand {\beamer@subsectionpages {3}{8}}
+\headcommand {\slideentry {2}{2}{1}{9/9}{Mathematics}{0}}
+\headcommand {\beamer@framepages {9}{9}}
+\headcommand {\slideentry {2}{2}{2}{10/10}{Mathematics}{0}}
+\headcommand {\beamer@framepages {10}{10}}
+\headcommand {\slideentry {2}{2}{3}{11/11}{Mathematics}{0}}
+\headcommand {\beamer@framepages {11}{11}}
+\headcommand {\beamer@partpages {1}{11}}
+\headcommand {\beamer@subsectionpages {9}{11}}
+\headcommand {\beamer@sectionpages {3}{11}}
+\headcommand {\beamer@documentpages {11}}
+\headcommand {\def \inserttotalframenumber {11}}

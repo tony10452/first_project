@@ -120,26 +120,109 @@ Après étude de l'état de l'art concernant les différents aspects de classifi
 	
 \end{frame}
 
-\begin{frame}{Expérimentations}
+\begin{frame}{DenStream}
 	DenStream est une méthodologie permettant de faire la détection des clusters dans un flot de données continue.
 	
 	DenStream est basé sur les concepts suivants:
 	\begin{itemize}
-		\item 
+		\item La notion des micro-clusters pour prendre en compte les clusters de taille arbitraire.
+		\item Une stratégie d'élimination des données inutiles.
+		\item La présentation de ressources mémoire pour les outliers afin de bien gérer la mémoire.
+		\item Qualité de clustering élevée.
 	\end{itemize}
 	
+\end{frame}
+
+\begin{frame}{DenStream}
+Plusieurs paramètres sont pris en considération lors du calcul mathématique pour DenStream:
+
+\begin{table}
+	\centering
+	\resizebox{\textwidth}{!}{\begin{tabular}{|l|l|}
+			\hline
+			Paramètre & Fonction \\ \hline
+			$\lambda$ & Facteur de dégradation temporelle\\ \hline
+			$\mu$ & Seuil du nombre des éléments d'un micro-cluster \\ \hline
+			$\beta$ & Facteur de pondération\\ \hline
+			$\epsilon$ & Rayon des micro-clusters \\ \hline 
+	\end{tabular}}
+	\caption{Les différets paramètres de l'algorithme DenStream et leur fonctionnemment} 
+\end{table} 
+
+Dans l'article initial présentant DenStream les vleurs des paramètres en question sont:
+$\lambda$ = 0.25 , 
+$\beta$ = 0.2
+$\mu$ = 0.25
+$\epsilon$ = 16
+\end{frame}
+
+
+\begin{frame}{Expérimentations}
+
+\begin{Theorem}
+	Les paramètres choisis ne représentent pas les valeurs optimales pour obtenir le résultat le plus proche du nombre de classes dans le benchmark.
+	
+	le nombre de classes dans le benchmark est de 23.
+\end{Theorem}
+
+\begin{proof}
+	Mettre le tableau ici pour montrer les combinaisons avec les valeurs les plus proches du nombre de classes en question et avec les valeurs de la redondance de meme et faire une étude comparative avec les paramètres présentés dans l'article meme.
+\end{proof}
 	
 \end{frame}
+
 
 \subsection{Mathematics}
 
-\begin{frame}{Readable Mathematics}
+\begin{frame}{Modifications proposées}
+\begin{definition}
+   L'importance des données est un facteur majeur décidant l'élimination des clusters au sein de l'algorithme.
+\end{definition}
 
-Let $X_1, X_2, \ldots, X_n$ be a sequence of independent and identically distributed random variables with $\text{E}[X_i] = \mu$ and $\text{Var}[X_i] = \sigma^2 < \infty$, and let
-$$S_n = \frac{X_1 + X_2 + \cdots + X_n}{n}
-      = \frac{1}{n}\sum_{i}^{n} X_i$$
-denote their mean. Then as $n$ approaches infinity, the random variables $\sqrt{n}(S_n - \mu)$ converge in distribution to a normal $\mathcal{N}(0, \sigma^2)$.
+\begin{theorem}
+Comsidérer la densité des données dans un micro-cluster comme facteur essentiel de dégradation des données. 
+
+
+\end{theorem}
+\end{frame}
+\begin{frame}
+\begin{itemize}
+	\item Récupérer tous les micro-clusters.
+	\item Calculer les coordonnées du centre du cluster.
+	\item Calculer le nombre des élements dans le micro-cluster
+	\item Récupérer tous les élements des micro-clusters
+	\item Calculer la distance du centre par rapport a chaque point
+	\item Considerer la plus grande distance comme étant rayon de la sphere.
+	\item Calculer le volume de la sphère puis diviser ce volume par le nombre des élements pour obtenir la densité.
+\end{itemize}
+\end{frame}
+
+
+
+\begin{frame}{Algorithme mathématique}
+
+Soit $X_1, X_2, \ldots, X_n$ est l'ensemble des élements du micro-cluster
+$X_c$ le centre du micro-cluster.
+$d$ La valeur de la distance entre le centre et les différents élements du micro-cluster calculée de la manière suivante:
+
+$d=\[ \sqrt{(x_c - x_i)^2 + (y_c - y_i)^2} \]$
+
+$N$ étant le nombre des éléments d'un micro cluster $i \in[1,N]$
+
+$r=max(d)$ correspond au rayon de la sphère comme distance maximale
+
+Le volume de l sphère se calcul par $V = \frac{4 * \pi * r^3}{3}$
+
+Finalement la densité sera calculée par $D = \frac{V}{N}$
+
+Deux sorties possibles des modifications de l'algorithme:
+
+\begin{enumerate}
+	\item Remplacement du facteur temporel par la densité.
+	\item Faire une combinaison entre les deux facteurs.
+\end{enumerate}
 
 \end{frame}
+
 
 \end{document}
